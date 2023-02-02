@@ -1,0 +1,32 @@
+
+
+/* selector {
+    property: value;    
+} */
+
+p{
+color: rgb(236, 116, 116);
+}
+
+footer{ background-color: rgb(123, 17, 17);
+
+}
+
+#logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+h3{
+color: rgb(194, 24, 11);
+
+}
+
+/* li გვერდიგვერდ დასმა */
+
+nav, header{display: flex; list-style: none} 
+header{justify-content: space-between;}
+nav, li{gap: 50px;}
+
+header{background-color: rgb(220, 169, 108);
+padding: 0 30px;}
